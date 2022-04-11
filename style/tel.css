@@ -235,3 +235,7 @@ h3:hover {
         transform: rotate(360deg);
     }
 }
+
+.nuit {
+    background-color: rgb(0, 0, 0);
+}

@@ -49,3 +49,10 @@ document.querySelectorAll("h3").forEach(lien => {
         document.querySelector("nav").classList.toggle("viens")
     })
 })
+
+document.querySelector("h4").addEventListener("click", nuit)
+
+function nuit(){
+    document.querySelector("body").classList.toggle("nuit")
+    document.querySelector("nav").classList.toggle("viens")
+}
