@@ -13,7 +13,7 @@
 <body>
     <header>
         <div class="nom">
-            <p>Yann <br> Clergue</p>
+            Yann <br> Clergue
         </div>
         <div class="burger">
             <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="none"
@@ -23,44 +23,116 @@
                 <line x1="3" y1="18" x2="21" y2="18"></line>
             </svg>
         </div>
+        <nav>
+            <div class="burger2">
+                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="none"
+                    stroke="#657332" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                </svg>
+            </div>
+            <u>
+                <h2 id="titreNav">Menu</h2>
+            </u>
+            <div class="onglets">
+               <a href="#presentation"><h3>Présentation</h3></a> 
+             <a href="#projet"><h3>Mes projets</h3></a>   
+               <a href="#contact"><h3>Contact</h3></a> 
+            </div>
+        </nav>
     </header>
     <main>
-        <div class="presentation">
+        <div class="presentation" id="presentation">
             <div class="moi">
                 <img src="img/moi.jpg" alt="">
             </div>
             <div class="description">
                 <p>Salut ! <br>
                 <h1>Yann Clergue</h1> est mon nom, je suis
-                un étudiant en formation des métiers du multimédia et de l’internet
+                un étudiant de 19 ans en formation des métiers du multimédia et de l’internet
                 en spécialités programation.
                 Plus tard, j’aimerai travailler
                 en tant que dévelopeur front-web
                 ou en ento entrepreneur.</p>
             </div>
         </div>
-        <div class="projet">
+        <div class="projet" id="projet">
             <h2>Mes projets :</h2>
             <div class="sites">
                 <div></div>
                 <div class="gauche">
-                    <div style="width: 100px; height: 100px">
-                    <img src="img/EcoFood.svg" alt=""></div>
-                    <div style="width: 100px; height: 100px">
-                        <img src="img/LTJV.jpg" alt="">
+                    <div>
+                        <a href="#Lecofood"><img id="ecofood" src="img/EcoFood.svg" alt="Logo du site Eco"></a>
+                    </div>
+                    <div>
+                        <a href="#LLTJV"> <img id="LTJV" src="img/LTJV.jpg" alt="Logo de mon blog,'les tutos jv'"></a>
                     </div>
                 </div>
                 <div class="droite">
-                    <div style="width: 100px; height: 100px">
-                        <img src="img/Nutry.svg" alt=""></div>
-                    <div style="width: 100px; height: 100px; background-color: blue;"></div>
+                    <div>
+                        <a href="#Lnutry"> <img id="nutry" src="img/Nutry.svg" alt="Logo du site Nutry"></a>
+                    </div>
+                    <div>
+                  <a href="#LYT"><img src="img/youtube.png" id="YT" alt="Youtube"></div></a>      
                 </div>
                 <div></div>
-                <div class="apparition"></div>
             </div>
+            <div class="apparition">
+                <div id="Lecofood" class="ecofood">
+
+                    <h2>EcoFood</h2>
+                    <p>
+                       EcoFood est un projet réalisé en groupe lors de ma deuxieme année d'étude.
+                        Nous avions 4 mois pour mettre en place le projet. J'ai contribué au groupe en créant le site
+                        avec l'un de mes camarades.
+                    </p>
+                    <p>
+                        Le but de ce site était de mettre en avant des produits frais et locaux,
+                        je me suis occupé de la partie blog, contact et A propos.
+                    </p>
+
+                    <p>Voici le lien vers le site : <a href="https://eco-food-alsace.000webhostapp.com/"
+                            target="blank_">eco-food-alsace</a></p>
+
+                </div>
+                <div id="LLTJV" class="LTJV">
+                    <h2>Les Tuto JV</h2>
+                    <p>Les Tutos JV est un blog personel que j'ai lancé lors des vacances de février. <br>
+                        Le site est entierement fait en code sans passer par un CMS. Je le gere seul, j'écris les
+                        articles, je transfers les fichiers au serveur et je le code moi même</p>
+                    <p>Voici le lien vers le site : <a href="https://lestutosjv.com/"
+                            target="blank_">lestutosjv.com/</a></p>
+                </div>
+                <div id="Lnutry" class="nutry">
+                    <h2>Nutry</h2>
+                    <p>
+                        Nutry est le deuxieme site fait en groupe lors de ma deuxieme année d'étude. Si le premier site
+                        avait comme thême les produits locaux, celui ci est concentré sur des produits de sport, plus
+                        précisément des boissons énergitiques.
+                    </p>
+                    <p>Voici le lien vers le site : <a href="https://nutry-alsace.github.io/website/"
+                            target="blank_">Nutry</a></p>
+                </div>
+                <div id="LYT" class="youtube">
+                    <h2>Ma chaine Youtube</h2>
+                    <p>Lors de mon temps libre, je fais aussi des vidéos.</p>
+                    <p>Il s'agit principalement de petit chant, une seul a demandé un peu plus de travail que d'autre.
+                    </p>
+                    <p>Voici le lien vers ma chaine : <a href="https://www.youtube.com/channel/UCLWeRMOUL39W23_X9HE70jg"
+                            target="blank_">Ma chaine</a></p>
+                </div>
+            </div>
+
         </div>
     </main>
-    <footer></footer>
+    <footer id="contact">
+        <h2>Contact</h2>
+        <p>Si vous désirez m'envoyez un mail, cliquez <a href="mailto:clergue14@gmail.com" target="blank_">ici</a></p>
+        </p>
+    </footer>
+
+
+    <script src="js/js.js"></script>
 </body>
 
 </html>
