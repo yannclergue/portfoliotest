@@ -18,7 +18,7 @@ html {
 body {
     display: grid;
     grid-template-rows: auto 1fr auto;
-    background: rgb(234, 234, 234)
+    background: rgb(234, 234, 234);
 }
 
 img {
@@ -43,6 +43,11 @@ h2 {
 h3 {
     text-align: center;
     margin: 100px 0px;
+    cursor: pointer;
+}
+
+svg {
+    cursor: pointer;
 }
 
 p {
@@ -68,6 +73,21 @@ a {
     right: 2%;
 }
 
+.soleil {
+    position: fixed;
+    top: 1%;
+    left: 2%;
+    cursor: pointer;
+}
+
+.lune {
+    position: fixed;
+    top: 1%;
+    left: 2%;
+    display: none;
+}
+
+
 nav {
     position: fixed;
     top: 0;
@@ -83,6 +103,7 @@ nav {
     transition: 0.5s;
     transform: translate(100%);
 }
+
 
 .viens {
     transform: translate(0%);
@@ -150,7 +171,6 @@ main {
     text-align: start;
     height: auto;
     color: var(--texte);
-    font-size: 1.2em;
 }
 
 
@@ -199,6 +219,10 @@ main {
     transition: 0.5s;
 }
 
+.aurevoir {
+    display: none;
+}
+
 /* Style d'animation  */
 
 .burger {
@@ -218,10 +242,6 @@ h3:hover {
     transition: 0.2s;
 }
 
-#ecofood:hover {
-    transform: rotate(360deg);
-    transition: 1s;
-}
 
 .tourne {
     animation: tourne 0.1s 1 forwards;
@@ -237,5 +257,11 @@ h3:hover {
 }
 
 .nuit {
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(62, 61, 61);
 }
+
+.nuit p {
+    color: black;
+}
+
+
