@@ -67,3 +67,26 @@ function jour(){
 }
 
 
+document.querySelector(".soleil2").addEventListener("click", nuit2)
+
+function nuit2(){
+    this.classList.toggle("aurevoir");
+    document.querySelector(".invisible1").classList.toggle("aurevoir")
+    document.querySelector(".invisible2").classList.toggle("salut")
+    document.querySelector("body").classList.toggle("nuit");
+    document.querySelector(".lune2").classList.toggle("salut");
+
+}
+
+document.querySelector(".lune2").addEventListener("click", jour2)
+
+function jour2(){
+    this.classList.toggle("salut");
+    document.querySelector("body").classList.toggle("nuit");
+    document.querySelector(".soleil2").classList.toggle("aurevoir");
+    document.querySelector(".invisible1").classList.toggle("aurevoir");
+    document.querySelector(".invisible2").classList.toggle("salut");
+
+}
+
+

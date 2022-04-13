@@ -18,7 +18,7 @@ html {
 body {
     display: grid;
     grid-template-rows: auto 1fr auto;
-    background: rgb(234, 234, 234);
+    background: rgb(222, 217, 217);
 }
 
 img {
@@ -67,6 +67,17 @@ a {
 
 /* Style du menu  */
 
+.presentation1 {
+    display: none;
+}
+.projets {
+    display: none;
+}
+
+.contact1 {
+    display: none;
+}
+
 .burger2 {
     position: fixed;
     top: 1%;
@@ -87,6 +98,18 @@ a {
     display: none;
 }
 
+.soleil2 {
+    display: none;
+}
+.lune2 {
+    display: none;
+}
+.invisible1 {
+    display: none;
+}
+.invisible2 {
+    display: none;
+}
 
 nav {
     position: fixed;
@@ -174,7 +197,6 @@ main {
 }
 
 
-/* Style pour le grid présentant mes projets */
 
 .sites {
     display: grid;
@@ -195,6 +217,7 @@ main {
     overflow: hidden;
     margin: 20px;
 }
+
 
 #YT {
     padding-top: 30px;

@@ -1,3 +1,156 @@
 body {
-    background-color: red;
+    overflow-X: hidden;
+}
+.presentation1   {
+    display: block;
+    color: var(--titre);
+}
+.projets {
+    display: block;
+    color: var(--titre);
+}
+
+.contact1 {
+    display: block;
+    color: var(--titre);
+}
+
+.burger{
+    display: none;
+}
+
+nav {
+    display: none;
+}
+
+.soleil2 {
+    display: block;
+}
+.lune2 {
+    display: none
+}
+
+.invisible1 {
+    display: block;
+}
+.invisible2 {
+    display: none;
+}
+
+.salut {
+    display: block;
+    transition: 0.5s;
+}
+
+.aurevoir {
+    display: none;
+    transition: 0.5s;
+}
+
+.presentation1 {
+    display: block;
+}
+
+/* bordel de header au dessus  */
+
+h1 {
+    font-size: 1em;
+    display: inline;
+    font-weight: normal;
+}
+
+h2 {
+    color: var(--titre);
+    text-align: start;
+    display: inline-block;
+    padding: 15px;
+    margin: 30px 0px;
+    font-size: 2em;
+}
+
+h3 {
+    text-align: center;
+    margin: 100px 0px;
+    cursor: pointer;
+}
+
+svg {
+    cursor: pointer;
+}
+
+p {
+    color: var(--texte);
+    font-size: 1.5em;
+    padding: 10px;
+}
+
+a {
+    display: block;
+}
+
+/* Regle général  */
+
+
+
+.presentation {
+    display: flex;
+    align-items: center;
+    margin: 150px 50px;
+    gap: 50px;
+}
+
+.moi {
+    max-width: 600px;
+    max-height: 600px;
+}
+
+.description {
+    margin-top: unset;
+    text-align: center;
+    color: var(--texte);
+}
+
+
+.sites {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.gauche div {
+    max-width: 250px;
+    max-height: 250px;
+    overflow: unset;
+    margin: 0px 50px;
+}
+.droite div {
+    max-width: 250px;
+    max-height: 250px;
+    overflow: unset;
+    margin: 0px 50px;
+}
+.droite div a {
+    width: 250px;
+    height: 250px;
+}
+.gauche div a {
+    width: 250px;
+    height: 250px;
+}
+
+.droite {
+    display: flex;
+}
+
+.gauche {
+    display: flex; 
+}
+
+.pasLa {
+   display: none;
+}
+
+#YT {
+    padding-top: 10px;
 }
