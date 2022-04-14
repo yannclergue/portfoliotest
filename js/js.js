@@ -98,7 +98,7 @@ window.addEventListener("scroll", () => {
 
     let TopElementToTopViewport = slideSites.getBoundingClientRect().top;
 
-    if(scrollTop > (scrollTop + TopElementToTopViewport).toFixed() - clientHeight * 0.50) {
+    if(scrollTop > (scrollTop + TopElementToTopViewport).toFixed() - clientHeight * 0.60) {
         slideSites.classList.add('coucou')
     }
 
