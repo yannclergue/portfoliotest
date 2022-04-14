@@ -90,3 +90,16 @@ function jour2(){
 }
 
 
+let slideSites = document.querySelector(".sites")
+
+window.addEventListener("scroll", () => {
+    let {scrollTop, clientHeight} = 
+    document.documentElement;
+
+    let TopElementToTopViewport = slideSites.getBoundingClientRect().top;
+
+    if(scrollTop > (scrollTop + TopElementToTopViewport).toFixed() - clientHeight * 0.50) {
+        slideSites.classList.add('coucou')
+    }
+
+})

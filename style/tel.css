@@ -60,6 +60,7 @@ a {
     text-decoration: none;
     color: var(--marron);
     font-weight: bold;
+    display: inline-block;
 }
 
 /* Déclaration des styles généraux */
@@ -229,17 +230,20 @@ main {
 }
 .LTJV {
     display: none;
+    transition: 0.5s;
 }
 .nutry {
     display: none;
+    transition: 0.5s;
 }
 .youtube {
     display: none;
+    transition: 0.5s;
 }
 
 .salut {
     display: block;
-    transition: 0.5s;
+    transition: 1s;
 }
 
 .aurevoir {

@@ -1,17 +1,38 @@
 body {
     overflow-X: hidden;
 }
-.presentation1   {
-    display: block;
-    color: var(--titre);
-}
-.projets {
+
+.presentation1  {
     display: block;
     color: var(--titre);
 }
 
-.contact1 {
+.surligne{
+    height: 2px;
+    width: 0%;
     display: block;
+    background-color: var(--titre);
+    transition:  width 0.2s ease-in-out;
+}
+
+.presentation1:hover + .surligne{
+    width: 100%;
+}
+.projets:hover + .surligne{
+    width: 100%;
+}
+.contact1:hover + .surligne{
+    width: 100%;
+}
+
+.projets {
+    display: inline;
+    color: var(--titre);
+
+}
+
+.contact1 {
+    display: inline;
     color: var(--titre);
 }
 
@@ -47,8 +68,9 @@ nav {
     transition: 0.5s;
 }
 
-.presentation1 {
-    display: block;
+
+header {
+    z-index: 2;
 }
 
 /* bordel de header au dessus  */
@@ -102,12 +124,16 @@ a {
 .moi {
     max-width: 600px;
     max-height: 600px;
+    animation: apparait 1s 1s ease-out 1 forwards;
+    transform: translate(-200%);
 }
 
 .description {
     margin-top: unset;
     text-align: center;
     color: var(--texte);
+    animation: apparait2 1s 2s ease-out 1 forwards;
+    transform: translate(-200%);
 }
 
 
@@ -116,6 +142,11 @@ a {
     justify-content: center;
     text-align: center;
     flex-wrap: wrap;
+    transform: translate(-100%);
+}
+
+.coucou {
+    animation: apparait 1.5s ease-in-out 1 forwards;
 }
 
 .gauche div {
@@ -153,4 +184,26 @@ a {
 
 #YT {
     padding-top: 10px;
+}
+
+
+@keyframes apparait {
+    0%{
+        transform: translate(-100%);
+        opacity: 0;
+    }
+    100%{
+        transform: translate(0%);
+        opacity: 1;
+    }
+}
+@keyframes apparait2 {
+    0%{
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0%);
+        opacity: 1;
+    }
 }
