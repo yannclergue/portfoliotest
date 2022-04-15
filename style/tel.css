@@ -60,7 +60,7 @@ a {
     text-decoration: none;
     color: var(--marron);
     font-weight: bold;
-    display: inline-block;
+    display: inline;
 }
 
 /* Déclaration des styles généraux */
