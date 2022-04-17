@@ -1,0 +1,59 @@
+{
+    "short_name": "YC Portfolio",
+    "name": "Yann Clergue Portfolio",
+    "start_url": "https://yannclergue.github.io/portfoliotest",
+    "orientation": "portrait",
+    "display": "standalone",
+    "theme_color": "#2a380d",
+    "background_color": "#1c1816",
+    "purpose": "any maskable",
+    "scope": "/",
+    "icons": [
+      {
+        "src": "/img/app.png",
+        "sizes": "32x32",
+        "type": "image/png"
+      },
+      {
+        "src": "/img/app72.png",
+        "sizes": "72x72",
+        "type": "image/png"
+      },
+      {
+        "src": "/img/app96.png",
+        "sizes": "96x96",
+        "type": "image/png"
+      },
+      {
+        "src": "/img/app128.png",
+        "sizes": "128x128",
+        "type": "image/png"
+      },
+      {
+        "src": "/img/app144.png",
+        "sizes": "144x144",
+        "type": "image/png"
+      },
+      {
+        "src": "/img/app152.png",
+        "sizes": "152x152",
+        "type": "image/png"
+      },
+      {
+        "src": "/img/app192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/img/app384.png",
+        "sizes": "384x384",
+        "type": "image/png"
+      },
+      {
+        "src": "/img/app512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "splash_pages": null
+  } 
