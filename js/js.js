@@ -103,3 +103,16 @@ window.addEventListener("scroll", () => {
     }
 
 })
+let slidelogo = document.querySelector(".apparition")
+
+window.addEventListener("logo", () => {
+    let {scrollTop, clientHeight} = 
+    document.documentElement;
+
+    let TopElementToTopViewport = slideSites.getBoundingClientRect().top;
+
+    if(scrollTop > (scrollTop + TopElementToTopViewport).toFixed()) {
+  document.querySelector("#ecofood").classList.remove("tourne")
+    }
+
+})

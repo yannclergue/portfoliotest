@@ -110,6 +110,9 @@ a {
     display: block;
 }
 
+#block {
+    display: unset;
+}
 /* Regle général  */
 
 
@@ -186,6 +189,48 @@ a {
     padding-top: 10px;
 }
 
+#ecofood:hover{
+    scale: 1.2;
+    transition: 0.3s;
+}
+#ecofood{
+    transition: 0.3s;
+}
+
+#LTJV:hover{
+    scale: 1.2;
+    transition: 0.3s;
+}
+#LTJV{
+    transition: 0.3s;
+}
+#nutry:hover{
+    scale: 1.2;
+    transition: 0.3s;
+}
+#nutry{
+    transition: 0.3s;
+}
+#YT:hover{
+    scale: 1.2;
+    transition: 0.3s;
+}
+#YT{
+    transition: 0.3s;
+}
+
+.tourne {
+    animation: tourne 0.5s 1 ease-in-out forwards;
+}
+
+/* @keyframes tourne {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+} */
 
 @keyframes apparait {
     0%{

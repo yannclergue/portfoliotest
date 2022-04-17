@@ -1,8 +1,8 @@
 :root{
-    --noir: rgba(38, 35, 33, 1);
-    --texte: rgba(57, 64, 31, 1);
-    --titre: rgba(101, 115, 50, 1);
-    --marron: rgba(89, 60, 44, 1);
+    --noir: #1C1816;
+    --texte: #2A380D;
+    --titre: #7F9144;
+    --marron: #593c2c;
     }
     
 * {
@@ -18,7 +18,7 @@ html {
 body {
     display: grid;
     grid-template-rows: auto 1fr auto;
-    background: rgb(222, 217, 217);
+    background: #EBE6E6;
 }
 
 img {
@@ -172,6 +172,7 @@ header {
 
 .nom {
     color: var(--titre);
+    cursor: pointer;
 }
 
 
@@ -284,11 +285,14 @@ h3:hover {
 }
 
 .nuit {
-    background-color: rgb(62, 61, 61);
+    background-color: #3e3d3d;
 }
 
 .nuit p {
-    color: black;
+    color: #F6F6F6;
 }
 
+.nuit p a {
+    color: #FBD6C6;
+}
 
